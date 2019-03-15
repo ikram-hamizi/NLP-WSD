@@ -1,0 +1,10 @@
+    my %matrix;
+
+    #Loop over your tests
+
+
+    $matrix{$expected}{$predicted} += 1;
+
+ 
+
+    makeConfusionMatrix(\%matrix, 'output.csv');
